@@ -19,5 +19,8 @@ COPY --from=build /app/target/*.jar /app/app.jar
 # Expose the port the app runs on
 EXPOSE 8080
 
+# Set the MongoDB host as an environment variable
+ENV MONGODB_HOST=localhost
+
 # Run the application
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
