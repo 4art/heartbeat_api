@@ -1,6 +1,6 @@
-package com.firulia.gbmulti.repo;
+package com.heartbeat.api.repo;
 
-import com.firulia.gbmulti.model.Heartbeat;
+import com.heartbeat.api.model.Heartbeat;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface HeartbeatRepository extends MongoRepository<Heartbeat, String> {

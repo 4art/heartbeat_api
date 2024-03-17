@@ -1,4 +1,4 @@
-package com.firulia.gbmulti.configuration;
+package com.heartbeat.api.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

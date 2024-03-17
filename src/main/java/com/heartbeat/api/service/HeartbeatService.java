@@ -1,6 +1,6 @@
-package com.firulia.gbmulti.service;
-import com.firulia.gbmulti.model.Heartbeat;
-import com.firulia.gbmulti.repo.HeartbeatRepository;
+package com.heartbeat.api.service;
+import com.heartbeat.api.model.Heartbeat;
+import com.heartbeat.api.repo.HeartbeatRepository;
 import lombok.extern.log4j.Log4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;

@@ -1,4 +1,4 @@
-package com.firulia.gbmulti.model;
+package com.heartbeat.api.model;
 
 import lombok.Builder;
 import lombok.Data;

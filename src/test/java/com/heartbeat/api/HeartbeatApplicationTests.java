@@ -1,10 +1,10 @@
-package com.firulia.gbmulti;
+package com.heartbeat.api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GbmultiApplicationTests {
+class HeartbeatApplicationTests {
 
 	@Test
 	void contextLoads() {
